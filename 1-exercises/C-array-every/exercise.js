@@ -5,7 +5,13 @@
 let students = ["Omar", "Austine", "Dany", "Swathi", "Lesley", "Rukmini"];
 let group = ["Austine", "Dany", "Swathi", "Daniel"];
 
-let groupIsOnlyStudents; // complete this statement
+// let groupIsOnlyStudents; // complete this statement
+let groupIsOnlyStudents = group.every(spotStudent); // complete this statement
+
+function spotStudent(name) {
+  students.forEach(student 
+
+}
 
 if (groupIsOnlyStudents) {
   console.log("The group contains only students");

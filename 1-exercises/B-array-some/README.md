@@ -21,7 +21,7 @@ To check your array of numbers, you'd have to run this function against every nu
 _Searches through an array and returns true if at least one array item satisifies the predicate function you provided._
 
 ```js
-let containsNegative = ages.some(isNegative);
+let containsNegative = ages.some(isNegative); //G.P. note (16-Dec-2022, 10.26am) If we really want this to run instead of ages we should use numbers
 
 console.log(containsNegative); // logs true
 ```
